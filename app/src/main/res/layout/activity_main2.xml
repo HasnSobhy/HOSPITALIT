@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/hospitalit2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="signinback"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:color/white"
+        android:text="@string/signin" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/bg"
+        android:textColor="@android:color/white"
+        android:text="@string/signup" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="75dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:background="@drawable/edittextstyle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_account_circle_24px"
+        android:paddingLeft="20dp"
+       />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextstyle"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/e_mail"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_markunread_24px"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText4"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittextstyle"
+        android:hint="@string/password"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_lock_outline_24px"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="signupsubmit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_blue"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:text="@string/signup" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HospitalIt</string>
+    <string name="signin">SIGNIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="forgetpass">Forget Password</string>
+    <string name="getstarted">Get Started</string>
+    <string name="you_can_chat_and_ask_doctor_easily_on_online_chatting">you can chat and ask doctor easily on online chatting .</string>
+    <string name="back">Back</string>
+    <string name="start">Start</string>
+    <string name="string_get_started" />
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="you_can_locate_the_nearest_hospital_nearest_bed_and_nearest_pharmacy_from_your_location_easily">you can locate the nearest hospital , nearest bed and nearest pharmacy from your location easily .</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="blood">you can search and find easily specific type of blood.</string>
+</resources>
