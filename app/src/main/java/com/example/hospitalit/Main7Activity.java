@@ -14,7 +14,7 @@ Intent myintent;
     }
 
     public void gethospital(View view) {
-        myintent=new Intent(this,Main8Activity.class);
+        myintent=new Intent(this,MapsActivity.class);
         startActivity(myintent);
     }
 }

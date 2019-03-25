@@ -43,14 +43,13 @@
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/button4"
-        android:layout_marginTop="75dp"
-        android:hint="Name"
-        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:hint="First Name"
         android:background="@drawable/edittextstyle"
         android:ems="10"
         android:inputType="textPersonName"
         android:drawableLeft="@drawable/ic_account_circle_24px"
-        android:paddingLeft="20dp"
+        android:paddingLeft="8dp"
        />
 
     <EditText
@@ -58,41 +57,87 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_below="@id/editText3"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/edittextstyle"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
-        android:hint="@string/e_mail"
-        android:textAlignment="center"
-        android:drawableLeft="@drawable/ic_markunread_24px"
-        android:paddingLeft="20dp"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/ic_account_circle_24px"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText4"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/ic_phone_black_48dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+         />
 
     <EditText
         android:id="@+id/editText5"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_below="@id/editText4"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/ic_markunread_24px"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText5"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/edittextstyle"
-        android:hint="@string/password"
-        android:textAlignment="center"
         android:drawableLeft="@drawable/ic_lock_outline_24px"
-        android:paddingLeft="20dp"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+       />
+
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText6"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/ic_lock_outline_24px"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+         />
 
     <Button
         android:id="@+id/button6"
-        android:onClick="signupsubmit"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_below="@id/editText5"
+        android:layout_below="@id/editText8"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/btn_blue"
-        android:textSize="18dp"
+        android:background="@drawable/animationbutton3"
+        android:onClick="signupsubmit"
+        android:text="@string/signup"
         android:textColor="@android:color/white"
-        android:text="@string/signup" />
+        android:textSize="18dp" />
 </RelativeLayout>

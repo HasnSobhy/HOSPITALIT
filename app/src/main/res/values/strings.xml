@@ -1,4 +1,5 @@
 <resources>
+    <string name="google_maps_api_key">AIzaSyCz5QxcqmiRTi54m_-uOXEX2wr5BxD5MCA</string>
     <string name="app_name">HospitalIt</string>
     <string name="signin">SIGNIN</string>
     <string name="signup">SIGNUP</string>
@@ -15,4 +16,10 @@
     <string name="password">Password</string>
     <string name="todo">TODO</string>
     <string name="blood">you can search and find easily specific type of blood.</string>
-</resources>
+    <string name="title_activity_maps">Map</string>
+    <string name="item">The Item of </string>
+    <string name="item2"> Cannot Be Empty !!</string>
+    <string name="email2">Invalid E-mail,Try Another One !!</string>
+    <string name="confirmpassword">Not Matching Password</string>
+    <string name="phone">Phone Number Is Valid ,Try Again !!</string>
+    <string name="creditnumber">Invalid Credit Number !!</string></resources>

@@ -52,7 +52,8 @@
         android:hint="@string/e_mail"
         android:textAlignment="center"
         android:drawableLeft="@drawable/ic_markunread_24px"
-        android:paddingLeft="20dp"
+        android:paddingLeft="8dp"
+
         android:ems="10"
         android:inputType="textEmailAddress" />
 
@@ -64,9 +65,9 @@
         android:layout_marginTop="20dp"
         android:hint="@string/password"
         android:layout_centerHorizontal="true"
-        android:textAlignment="center"
         android:drawableLeft="@drawable/ic_lock_outline_24px"
-        android:paddingLeft="20dp"
+        android:paddingLeft="8dp"
+        android:textAlignment="center"
         android:background="@drawable/edittextstyle"
         android:ems="10"
         android:inputType="textPassword" />
@@ -74,12 +75,12 @@
     <Button
         android:id="@+id/button3"
         android:onClick="signinsubmit"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/editText2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:background="@drawable/btn_blue"
+        android:background="@drawable/animationbutton3"
         android:textSize="22dp"
         android:textColor="@android:color/white"
         android:text="@string/signin" />
