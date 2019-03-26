@@ -1,5 +1,5 @@
 <resources>
-    <string name="google_maps_api_key">AIzaSyCz5QxcqmiRTi54m_-uOXEX2wr5BxD5MCA</string>
+    <string name="google_maps_api_key">////////////////////////////////////////</string>
     <string name="app_name">HospitalIt</string>
     <string name="signin">SIGNIN</string>
     <string name="signup">SIGNUP</string>
